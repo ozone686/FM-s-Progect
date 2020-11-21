@@ -1,0 +1,273 @@
+.mainpaje {
+  text-align: center;
+  margin-top: 100px;
+  background-color: black;
+  background-image: url("img/mainback.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+body {
+  background-color: black;
+}
+
+main {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.start {
+  font-family: "GEORGIA", "Arial", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: goldenrod;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7em 0em 0.7em 0em;
+}
+
+
+.one {
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav p {
+  font-size: 24px;
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+.intro {
+  margin-top: 70px;
+  background-image: url("img/intro.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.mainone2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  border : 1px solid goldenrod;
+  width: 90%;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "GEORGIA", "Arial", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: goldenrod;
+  text-align: center;
+  padding: 0.6em 0em 0.6em 0em;
+}
+
+.paje2 {
+  margin-top: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border : 1px solid goldenrod;
+  width: 90%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  margin-left: 1em;
+  text-align: left;
+  font-size: 24px;
+  color: antiquewhite;
+}  
+
+.space {
+  margin-left: 1.5em;
+}
+
+footer {
+  font-size: 36px;
+  font-weight: 700;
+  color: goldenrod;
+  margin: 50px;
+  text-align: center;
+}
+
+a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+a:visited {
+  color: antiquewhite;
+}
+
+footer a {
+  background-color: rgba(0, 0, 0, 0.5);
+  border : 1px solid goldenrod;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 0em 3em 0em 3em;
+}
+
+.navi {
+  background-color: rgba(0, 0, 0, 0.5);
+  border : 1px solid goldenrod;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: center;
+  padding: 0em 1.5em 0em 1.5em;
+}
+
+.marj {
+  margin-top: 50px;
+}
+
+.headers-mini {
+  font-size: 36px;
+  font-weight: 500;
+  color: bisque;
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  width: 20%;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  color: goldenrod;
+}
+
+.dl-style {
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  width: 5%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: bisque;
+}
+
+.dl-style1 {
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  width: 12%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: bisque;
+}
+
+.dl-style2 {
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  width: 15%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+  color: bisque;
+}
+
+.dl-style3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  width: 10%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: bisque;
+}
+
+.style {
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;
+  color: bisque;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.warnstyle {
+  background-image: url("img/warn.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 50px;
+}
+
+section.warnstyle2 p {
+  margin: 0;
+}
+
+section.warnstyle2 {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("img/warn.png");
+  border : 1px solid goldenrod;
+  background-repeat: no-repeat;
+  width: 40%;
+  border-radius: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 7.5em 5em;
+  padding: 0.5em 0.5em 0.5em 3em;
+  text-align: left;
+  background-position-x: -2.2em;
+  background-position-y: 0.3em;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.gallery {
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.middle {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.inside {
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  border-radius: 10px;
+  width: 40%;
+  padding: 5em 0em 5em 0em;
+  text-align: center;
+}
+
+.snap img {
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  
+}
+
+section.block p {
+  display: inline-block;
+}
+
+.snap p {
+margin-left: auto;
+}
+
