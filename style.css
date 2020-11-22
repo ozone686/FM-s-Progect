@@ -1,3 +1,4 @@
+/* intro */
 .mainpaje {
   text-align: center;
   margin-top: 100px;
@@ -49,7 +50,7 @@ nav p {
   color: goldenrod;
   text-decoration: underline;
 }
-
+/* Интро и разметка статей*/
 .intro {
   margin-top: 70px;
   background-image: url("img/intro.png");
@@ -87,6 +88,7 @@ nav p {
 
 .text {
   margin-left: 1em;
+  margin-right: 1em;
   text-align: left;
   font-size: 24px;
   color: antiquewhite;
@@ -94,6 +96,13 @@ nav p {
 
 .space {
   margin-left: 1.5em;
+}
+
+.underline {
+  text-decoration: underline;
+  color: goldenrod;
+  text-align: center;
+  font-size: 10px;
 }
 
 footer {
@@ -136,7 +145,7 @@ footer a {
   text-align: center;
   padding: 0em 1.5em 0em 1.5em;
 }
-
+/* pазметка заголовков */
 .marj {
   margin-top: 50px;
 }
@@ -196,7 +205,7 @@ footer a {
   text-align: center;
   color: bisque;
 }
-
+/* разметка с картинкой */
 .style {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
@@ -237,10 +246,38 @@ section.warnstyle2 {
   margin-top: 30px;
 }
 
+section.warnstyle3 {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("img/warn.png");
+  border : 1px solid goldenrod;
+  background-repeat: no-repeat;
+  width: 90%;
+  border-radius: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 9em 6em;
+  padding: 0em 0.5em 0em 3em;
+  text-align: left;
+  background-position-x: -3em;
+  background-position-y: 0.9em;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.warnstyle3 {
+  background-image: url("img/warn.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 50px;
+  background-size: 5em;
+  background-position-x: 2.2em;
+}
+/* добавленные картинки */
 .gallery {
   border: 1px solid goldenrod;
   border-radius: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .middle {
@@ -255,11 +292,19 @@ section.warnstyle2 {
   width: 40%;
   padding: 5em 0em 5em 0em;
   text-align: center;
+  margin-bottom: 150px;
+  margin-top: 0;
+}
+
+.inside p {
+  margin-right: 70px;
 }
 
 .snap img {
   border: 1px solid goldenrod;
   border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 160px;
   
 }
 
@@ -267,7 +312,13 @@ section.block p {
   display: inline-block;
 }
 
-.snap p {
-margin-left: auto;
+.snap2 {
+  background-color: rgba(0, 0, 0, 0.4);
+  border : 1px solid goldenrod;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em 0.5em 0.5em 2em;
+  margin: 0em 0em 0em 1.5em;
 }
-
