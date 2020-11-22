@@ -98,6 +98,10 @@ nav p {
   margin-left: 1.5em;
 }
 
+.demo {
+  color: rgba(230, 215, 19, 0.932)
+}
+
 .underline {
   text-decoration: underline;
   color: goldenrod;
