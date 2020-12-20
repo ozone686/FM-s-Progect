@@ -126,6 +126,12 @@ a:visited {
   color: antiquewhite;
 }
 
+a.rocket:hover {
+  background-image: url("img/rocket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 footer a {
   background-color: rgba(0, 0, 0, 0.5);
   border : 1px solid goldenrod;
@@ -213,7 +219,7 @@ footer a {
 .style {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
-  width: 80%;
+  width: 85%;
   border-radius: 10px;
   text-align: center;
   color: bisque;
@@ -226,13 +232,23 @@ footer a {
   background-repeat: no-repeat;
   background-position: left;
   margin-top: 50px;
+  background-size: 6em 4em;
 }
+
+.warnstyle1 {
+  background-image: url("img/warn.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 50px;
+  background-size: 7.5em 5em;
+}
+
 
 section.warnstyle2 p {
   margin: 0;
 }
 
-section.warnstyle2 {
+.warnstyle2 {
   background-color: rgba(0, 0, 0, 0.4);
   background-image: url("img/warn.png");
   border : 1px solid goldenrod;
@@ -250,7 +266,7 @@ section.warnstyle2 {
   margin-top: 30px;
 }
 
-section.warnstyle3 {
+.warnstyle3 {
   background-color: rgba(0, 0, 0, 0.4);
   background-image: url("img/warn.png");
   border : 1px solid goldenrod;
@@ -265,17 +281,10 @@ section.warnstyle3 {
   background-position-x: -3em;
   background-position-y: 0.9em;
   margin-bottom: 50px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
-.warnstyle3 {
-  background-image: url("img/warn.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  margin-top: 50px;
-  background-size: 5em;
-  background-position-x: 2.2em;
-}
+
 /* добавленные картинки */
 .gallery {
   border: 1px solid goldenrod;
@@ -301,9 +310,6 @@ section.warnstyle3 {
   margin-left: 60px;
 }
 
-.inside p {
-  margin-right: 70px;
-}
 
 .snap img {
   border: 1px solid goldenrod;
@@ -329,4 +335,14 @@ section.block p {
   text-align: center;
   padding: 0 0.8em 0 0.8em;
   
+}
+
+/* Для раздела рокет */
+
+.rocket {
+  background-image: url("img/rocket.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 9.5em 9.5em;
+  background-position-x: 50em;
 }
