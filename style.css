@@ -126,12 +126,6 @@ a:visited {
   color: antiquewhite;
 }
 
-a.rocket:hover {
-  background-image: url("img/rocket.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 footer a {
   background-color: rgba(0, 0, 0, 0.5);
   border : 1px solid goldenrod;
@@ -172,6 +166,7 @@ footer a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  margin-top: 50px;
   color: goldenrod;
 }
 
@@ -337,7 +332,37 @@ section.block p {
   
 }
 
-/* Для раздела рокет */
+.rabbit {
+  background-image: url("img/Strafe.png");
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 10.9em 10.9em;
+  background-position-x: 48em;
+  background-position-y: 0em;
+}
+
+.haste {
+display: flex;
+flex-direction: row;
+background-image: url("img/Strafe.png");
+background-position: left;  
+background-repeat: no-repeat;
+background-size: 10.9em 10.9em;
+background-position-x: 8em;
+background-position-y: 0em;
+}
+
+.haste1 {
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 545px;
+}
+
+/* Для раздела картинок оружия */
 
 .rocket {
   background-image: url("img/rocket.png");
@@ -346,6 +371,33 @@ section.block p {
   background-size: 9.5em 9.5em;
   background-position-x: 50em;
   background-position-y: 1.5em;
+}
+
+.grenade {
+  background-image: url("img/Grenade.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 9.5em 9.5em;
+  background-position-x: 50em;
+  background-position-y: 2.5em;
+}
+
+.plasma {
+  background-image: url("img/Plasma.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 9.5em 9.5em;
+  background-position-x: 50em;
+  background-position-y: 2.5em;
+}
+
+.bfg {
+  background-image: url("img/BFG.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 9.5em 9.5em;
+  background-position-x: 50em;
+  background-position-y: 2em;
 }
 
 /* Testing Flexbox*/
@@ -402,4 +454,17 @@ section.block p {
   width: 90%;
   padding: 5px 0 5px 50px;
   margin-bottom: 0px;
+}
+
+/* Раздел про ob*/
+.ob {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  width: 95%;
+  padding: 5px 0 5px 10px;
 }
