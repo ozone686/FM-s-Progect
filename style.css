@@ -109,34 +109,15 @@ nav p {
   font-size: 10px;
 }
 
-footer {
-  font-size: 36px;
-  font-weight: 700;
-  color: goldenrod;
-  margin: 50px;
-  text-align: center;
-}
-
 a {
   color: goldenrod;
   text-decoration: none;
 }
 
 a:visited {
-  color: antiquewhite;
+  color: cadetblue;
 }
 
-footer a {
-  background-color: rgba(0, 0, 0, 0.5);
-  border : 1px solid goldenrod;
-  border-radius: 10px;
-  font-weight: 500;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  text-align: center;
-  padding: 0em 3em 0em 3em;
-}
 
 .navi {
   background-color: rgba(0, 0, 0, 0.5);
@@ -150,6 +131,7 @@ footer a {
   padding: 0em 1.5em 0em 1.5em;
 }
 /* pазметка заголовков */
+
 .marj {
   margin-top: 50px;
 }
@@ -343,10 +325,10 @@ section.block p {
   background-position-y: 0em;
 }
 
-.haste {
+.flex {
 display: flex;
 flex-direction: row;
-background-image: url("img/Strafe.png");
+background-image: url("img/haste.png");
 background-position: left;  
 background-repeat: no-repeat;
 background-size: 10.9em 10.9em;
@@ -360,6 +342,28 @@ background-position-y: 0em;
   text-align: center;
   margin-bottom: 50px;
   margin-left: 545px;
+}
+
+.haste {
+  background-image: url("img/haste.png");
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 6em 6em;
+  background-position-x: 55em;
+  background-position-y: 0em;
+}
+
+.quade {
+  background-image: url("img/quade.png");
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 6em 6em;
+  background-position-x: 55em;
+  background-position-y: 0em;
 }
 
 /* Для раздела картинок оружия */
@@ -467,4 +471,154 @@ background-position-y: 0em;
   border-radius: 10px;
   width: 95%;
   padding: 5px 0 5px 10px;
+}
+
+/* Подчеркивание ссылок*/
+
+.under a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.under a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 0;
+  background: antiquewhite;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+}
+
+.under a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.links {
+  font-size: 26px;
+  line-height: 40px;
+}
+
+/* Всплывающая навигация
+
+
+.dropdown {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dropbutton {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: goldenrod;
+  padding: 10px 42px 10px 42px;
+  font-size: 26px;
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+}
+
+.content {
+  text-align: center;
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  min-width: 208px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.content a {
+  color: goldenrod;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+*/
+
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "GEORGIA", "Arial", sans-serif;
+  font-size: 32px;
+  
+}
+
+.back {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+}
+
+.navigation {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  margin: 0 20px 0 20px;
+  color: goldenrod;
+  font-size: 32px;
+  font-family: "GEORGIA", "Arial", sans-serif;
+}
+
+.next {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+}
+
+.dropdown {
+  display: inline-block;
+  
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  display: none;
+  position: absolute;
+  min-width: 180px;
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
+  margin-left: 35px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: "GEORGIA", "Arial", sans-serif;
+}
+
+.content a {
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.content a:visited {
+  color: antiquewhite;
 }
