@@ -21,7 +21,8 @@ main {
   color: goldenrod;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
-  border : 1px solid goldenrod;
+  border : 2px solid goldenrod;
+  box-shadow: 0 0 15px 2px goldenrod;
   width: 70%;
   border-radius: 10px;
   text-align: center;
@@ -33,7 +34,8 @@ main {
 
 .one {
   background-color: rgba(0, 0, 0, 0.4);
-  border : 1px solid goldenrod;
+  border : 2px solid goldenrod;
+  box-shadow: 0 0 15px 2px goldenrod;
   width: 60%;
   border-radius: 10px;
   text-align: center;
@@ -58,7 +60,8 @@ nav p {
 
 .mainone2 {
   background-color: rgba(0, 0, 0, 0.6);
-  border : 1px solid goldenrod;
+  border : 2px solid goldenrod;
+  box-shadow: 0 0 15px 2px goldenrod;
   width: 90%;
   border-radius: 10px;
   text-align: center;
@@ -75,7 +78,8 @@ nav p {
 .paje2 {
   margin-top: 70px;
   background-color: rgba(0, 0, 0, 0.5);
-  border : 1px solid goldenrod;
+  border : 2px solid goldenrod;
+  box-shadow: 0 0 15px 2px goldenrod;
   width: 90%;
   border-radius: 10px;
   margin-left: auto;
@@ -133,6 +137,7 @@ a {
   color: bisque;
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
+  box-shadow: 0 0 5px 2px;
   width: 20%;
   border-radius: 10px;
   text-align: center;
@@ -146,6 +151,7 @@ a {
 .dl-style {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
+  box-shadow: 0 0 10px 3px rgba(218, 165, 32, 0.3);
   max-width: 15%;
   padding: 2px 5px 2px 5px;
   border-radius: 10px;
@@ -158,6 +164,7 @@ a {
 .dl-style2 {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
+  box-shadow: 0 0 10px 3px rgba(218, 165, 32, 0.3);
   max-width: 15%;
   padding: 2px 5px 2px 5px;
   border-radius: 10px;
@@ -172,6 +179,7 @@ a {
 .style {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   width: 85%;
   border-radius: 10px;
   text-align: center;
@@ -205,6 +213,7 @@ section.warnstyle2 p {
   background-color: rgba(0, 0, 0, 0.4);
   background-image: url("img/warn.png");
   border : 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   background-repeat: no-repeat;
   width: 40%;
   border-radius: 0.5em;
@@ -223,6 +232,7 @@ section.warnstyle2 p {
   background-color: rgba(0, 0, 0, 0.4);
   background-image: url("img/warn.png");
   border : 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   background-repeat: no-repeat;
   width: 90%;
   border-radius: 0.5em;
@@ -241,6 +251,7 @@ section.warnstyle2 p {
 /* добавленные картинки */
 .gallery {
   border: 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   text-align: center;
   margin-bottom: 20px;
@@ -254,6 +265,7 @@ section.warnstyle2 p {
 .inside {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   width: 37%;
   padding: 6em 1em 6em 1em;
@@ -266,6 +278,7 @@ section.warnstyle2 p {
 
 .snap img {
   border: 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   margin-top: 30px;
   margin-left: 160px;
@@ -281,6 +294,7 @@ section.block p {
 .snap2 {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   width: 90%;
   margin-left: auto;
@@ -314,6 +328,7 @@ background-position-y: 0em;
 
 .haste1 {
   border: 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   text-align: center;
   margin-bottom: 50px;
@@ -396,6 +411,7 @@ background-position-y: 0em;
 
 .pc {
   border: 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   margin-left: 30px;
 }
@@ -403,6 +419,7 @@ background-position-y: 0em;
 .box1 {
   background-color: rgba(0, 0, 0, 0.4);
   border: 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   width: 90%;
   padding: 5px 0 5px 50px;
@@ -420,6 +437,7 @@ background-position-y: 0em;
   margin-bottom: 50px;
   background-color: rgba(0, 0, 0, 0.4);
   border: 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   width: 95%;
   padding: 5px 0 5px 10px;
@@ -470,6 +488,7 @@ background-position-y: 0em;
 .back {
   background-color: rgba(0, 0, 0, 0.4);
   border: 1px solid goldenrod;
+  box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   padding: 10px 40px 10px 40px;
 }
@@ -481,6 +500,7 @@ background-position-y: 0em;
 .navigation {
   background-color: rgba(0, 0, 0, 0.4);
   border: 1px solid goldenrod;
+  box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   padding: 10px 40px 10px 40px;
   margin: 0 20px 0 20px;
@@ -492,6 +512,7 @@ background-position-y: 0em;
 .next {
   background-color: rgba(0, 0, 0, 0.4);
   border: 1px solid goldenrod;
+  box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   padding: 10px 40px 10px 40px;
 }
@@ -505,6 +526,7 @@ background-position-y: 0em;
   position: absolute;
   min-width: 180px;
   border: 1px solid goldenrod;
+  box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   padding: 5px 10px 5px 10px;
   margin-left: 35px;
@@ -525,4 +547,42 @@ background-position-y: 0em;
 
 .content a:visited {
   color: antiquewhite;
+}
+
+/* Раздел тест*/
+
+.bordertest {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid goldenrod;
+  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
+  border-radius: 10px;
+  width: 100%;
+  
+}
+
+.description {
+  max-width: 330px;
+  margin-top: 10px;
+}
+
+.testing {
+  display: flex;
+  flex-direction: column;
+}
+
+.lineone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.video {
+  border: 1px solid goldenrod;
+  box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
 }
