@@ -1,81 +1,13 @@
 /* intro */
-.mainpaje {
-  text-align: center;
-  margin-top: 100px;
-  background-color: black;
+html {
+  font-family: "GEORGIA", "Arial", sans-serif;
   background-image: url("img/mainback.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  }
-
+}
 
 main {
-  margin-top: 70px;
-}
-
-.start {
-  font-family: "GEORGIA", "Arial", sans-serif;
-  font-size: 45px;
-  font-weight: 700;
-  color: goldenrod;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.4);
-  border : 2px solid goldenrod;
-  box-shadow: 0 0 15px 2px goldenrod;
-  width: 70%;
-  border-radius: 10px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.7em 0em 0.7em 0em;
-}
-
-
-.one {
-  background-color: rgba(0, 0, 0, 0.4);
-  border : 2px solid goldenrod;
-  box-shadow: 0 0 15px 2px goldenrod;
-  width: 60%;
-  border-radius: 10px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-nav p {
-  font-size: 24px;
-  color: goldenrod;
-  text-decoration: underline;
-}
-/* Интро и разметка статей*/
-.intro {
-  margin-top: 70px;
-  background-image: url("img/intro.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-
-.mainone2 {
-  background-color: rgba(0, 0, 0, 0.6);
-  border : 2px solid goldenrod;
-  box-shadow: 0 0 15px 2px goldenrod;
-  width: 90%;
-  border-radius: 10px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "GEORGIA", "Arial", sans-serif;
-  font-size: 45px;
-  font-weight: 700;
-  color: goldenrod;
-  text-align: center;
-  padding: 0.6em 0em 0.6em 0em;
-}
-
-.paje2 {
   margin-top: 70px;
   background-color: rgba(0, 0, 0, 0.5);
   border : 2px solid goldenrod;
@@ -84,15 +16,36 @@ nav p {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.text {
-  margin-left: 1em;
-  margin-right: 1em;
-  text-align: left;
+  padding: 0 1em;
   font-size: 24px;
   color: antiquewhite;
-}  
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  border : 2px solid goldenrod;
+  box-shadow: 0 0 15px 2px goldenrod;
+  text-shadow: -3px 3px 5px rgba(218, 165, 32, .7);
+  width: 92.3%;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  font-family: "GEORGIA", "Arial", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: goldenrod;
+  text-align: center;
+  padding: 0.6em 0em 0.6em 0em;
+}
+
+nav {
+  font-size: 24px;
+  color: goldenrod;
+  text-align: center;
+}
+/* Интро и разметка статей*/
 
 .space {
   margin-left: 1.5em;
@@ -113,70 +66,40 @@ a {
   text-decoration: none;
 }
 
-
-.navi {
-  background-color: rgba(0, 0, 0, 0.5);
-  border : 1px solid goldenrod;
-  border-radius: 10px;
-  font-weight: 500;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  text-align: center;
-  padding: 0em 1.5em 0em 1.5em;
-}
 /* pазметка заголовков */
 
-.marj {
-  margin-top: 50px;
-}
-
-.headers-mini {
+h2 {
   font-size: 36px;
   font-weight: 500;
-  color: bisque;
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
   box-shadow: 0 0 5px 2px;
-  width: 20%;
+  display: inline-block;
   border-radius: 10px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 650px;
+  margin-top: 30px;
+  padding: 5px;
   color: goldenrod;
 }
 
-.dl-style {
+h3 {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
   box-shadow: 0 0 10px 3px rgba(218, 165, 32, 0.3);
-  max-width: 15%;
-  padding: 2px 5px 2px 5px;
+  font-size: 24px;
+  display: inline-block;
+  padding: 5px 10px;
   border-radius: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  color: bisque;
-}
-
-
-.dl-style2 {
-  background-color: rgba(0, 0, 0, 0.4);
-  border : 1px solid goldenrod;
-  box-shadow: 0 0 10px 3px rgba(218, 165, 32, 0.3);
-  max-width: 15%;
-  padding: 2px 5px 2px 5px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  margin-top: 40px;
+  margin: 0;
   text-align: center;
   color: bisque;
 }
 
 
 /* разметка с картинкой */
-.style {
+
+.warning {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
   box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
@@ -184,71 +107,17 @@ a {
   border-radius: 10px;
   text-align: center;
   color: bisque;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.warnstyle {
+  margin: 50px auto;
+  padding: 5px 90px;
   background-image: url("img/warn.png");
   background-repeat: no-repeat;
   background-position: left;
-  margin-top: 50px;
-  background-size: 6em 4em;
+  background-size: 3em;
+  background-position-x: -15px;
+  background-position-y: 10px;
 }
 
-.warnstyle1 {
-  background-image: url("img/warn.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  margin-top: 50px;
-  background-size: 7.5em 5em;
-}
-
-
-section.warnstyle2 p {
-  margin: 0;
-}
-
-.warnstyle2 {
-  background-color: rgba(0, 0, 0, 0.4);
-  background-image: url("img/warn.png");
-  border : 1px solid goldenrod;
-  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  background-repeat: no-repeat;
-  width: 40%;
-  border-radius: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  background-size: 7.5em 5em;
-  padding: 0.5em 0.5em 0.5em 3em;
-  text-align: left;
-  background-position-x: -2.2em;
-  background-position-y: 0.3em;
-  margin-bottom: 50px;
-  margin-top: 30px;
-}
-
-.warnstyle3 {
-  background-color: rgba(0, 0, 0, 0.4);
-  background-image: url("img/warn.png");
-  border : 1px solid goldenrod;
-  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  background-repeat: no-repeat;
-  width: 90%;
-  border-radius: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  background-size: 9em 6em;
-  padding: 0em 0.5em 0em 3em;
-  text-align: left;
-  background-position-x: -3em;
-  background-position-y: 0.9em;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-
-/* добавленные картинки */
+/* раздел стрейф */
 .gallery {
   border: 1px solid goldenrod;
   box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
@@ -267,12 +136,9 @@ section.warnstyle2 p {
   border : 1px solid goldenrod;
   box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
-  width: 37%;
-  padding: 6em 1em 6em 1em;
   text-align: center;
-  margin-bottom: 150px;
-  margin-top: 50px;
-  margin-left: 60px;
+  width: 40%;
+  padding: 95px 5px;
 }
 
 
@@ -280,34 +146,26 @@ section.warnstyle2 p {
   border: 1px solid goldenrod;
   box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
-  margin-top: 30px;
-  margin-left: 160px;
-  
 }
 
-section.block p {
-  display: inline-block;
-  vertical-align: middle;
-  margin-bottom: 50px;
+.block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
 }
 
-.snap2 {
-  background-color: rgba(0, 0, 0, 0.4);
-  border : 1px solid goldenrod;
-  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  border-radius: 10px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding: 0 0.8em 0 0.8em;
-  
+.warn {
+  float: left;
 }
 
+/*Конец раздела*/
+
+/* CPM */
 .rabbit {
   background-image: url("img/Strafe.png");
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 40px;
   background-position: right;
   background-repeat: no-repeat;
   background-size: 10.9em 10.9em;
@@ -330,11 +188,11 @@ background-position-y: 0em;
   border: 1px solid goldenrod;
   box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
-  text-align: center;
   margin-bottom: 50px;
   margin-left: 545px;
 }
 
+/* Stuff */
 .haste {
   background-image: url("img/haste.png");
   margin-top: 50px;
@@ -363,18 +221,18 @@ background-position-y: 0em;
   background-image: url("img/rocket.png");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 9.5em 9.5em;
+  background-size: 8.5em 8.5em;
   background-position-x: 50em;
-  background-position-y: 1.5em;
+  background-position-y: 2em;
 }
 
 .grenade {
   background-image: url("img/Grenade.png");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 9.5em 9.5em;
+  background-size: 8.5em 8.5em;
   background-position-x: 50em;
-  background-position-y: 2.5em;
+  background-position-y: 3em;
 }
 
 .plasma {
@@ -395,7 +253,7 @@ background-position-y: 0em;
   background-position-y: 2em;
 }
 
-/* Testing Flexbox*/
+/* Testing Flexbox раздел плазма*/
 
 .container {
   display: flex;
@@ -473,6 +331,7 @@ background-position-y: 0em;
   line-height: 40px;
 }
 
+/* Footer navigation */
 
 .end {
   display: flex;
@@ -493,8 +352,12 @@ background-position-y: 0em;
   padding: 10px 40px 10px 40px;
 }
 
-.dropdown {
-  position: relative;
+.next {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid goldenrod;
+  box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
 }
 
 .navigation {
@@ -509,15 +372,9 @@ background-position-y: 0em;
   font-family: "GEORGIA", "Arial", sans-serif;
 }
 
-.next {
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 1px solid goldenrod;
-  box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  border-radius: 10px;
-  padding: 10px 40px 10px 40px;
+.dropdown {
+  position: relative;
 }
-
-
 
 .content {
   background-color: rgba(0, 0, 0, 1);
@@ -529,8 +386,7 @@ background-position-y: 0em;
   box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   padding: 5px 10px 5px 10px;
-  margin-left: 35px;
-  margin-top: 10px;
+  margin-left: 37.5px;
   font-size: 24px;
   font-family: "GEORGIA", "Arial", sans-serif;
   bottom: 58px;
@@ -543,10 +399,6 @@ background-position-y: 0em;
 
 .dropdown:hover .content {
   display: block;
-}
-
-.content a:visited {
-  color: antiquewhite;
 }
 
 /* Раздел тест*/
