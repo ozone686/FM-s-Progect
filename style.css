@@ -5,6 +5,11 @@ html {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: center;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 main {
@@ -26,7 +31,7 @@ h1 {
   border : 2px solid goldenrod;
   box-shadow: 0 0 15px 2px goldenrod;
   text-shadow: -3px 3px 5px rgba(218, 165, 32, .7);
-  width: 92.3%;
+  width: 90%;
   border-radius: 10px;
   text-align: center;
   margin-left: auto;
@@ -77,10 +82,13 @@ h2 {
   display: inline-block;
   border-radius: 10px;
   margin-bottom: 50px;
-  margin-left: 650px;
   margin-top: 30px;
   padding: 5px;
   color: goldenrod;
+}
+
+.header2 {
+  text-align: center;
 }
 
 h3 {
@@ -138,7 +146,7 @@ h3 {
   border-radius: 10px;
   text-align: center;
   width: 40%;
-  padding: 95px 5px;
+  padding: 75px 5px;
 }
 
 
@@ -401,40 +409,3 @@ background-position-y: 0em;
   display: block;
 }
 
-/* Раздел тест*/
-
-.bordertest {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 1px solid goldenrod;
-  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  border-radius: 10px;
-  width: 100%;
-  
-}
-
-.description {
-  max-width: 330px;
-  margin-top: 10px;
-}
-
-.testing {
-  display: flex;
-  flex-direction: column;
-}
-
-.lineone {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.video {
-  border: 1px solid goldenrod;
-  box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  padding: 10px 20px 10px 20px;
-  border-radius: 10px;
-}
