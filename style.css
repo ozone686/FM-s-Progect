@@ -158,15 +158,8 @@ h3 {
 
 .block {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  align-items: stretch;
-}
-
-@media only screen and (max-width: 760px) {
-  .block {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 .warn {
@@ -293,6 +286,11 @@ background-position-y: 0em;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
   }
 }
 
