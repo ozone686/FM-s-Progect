@@ -275,6 +275,18 @@ background-position-y: 0em;
   margin-left: 100px;
 }
 
+@media only screen and (min-width: 740px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 .pc {
   border: 1px solid goldenrod;
   box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
