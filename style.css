@@ -162,18 +162,6 @@ h3 {
   justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 760px) {
- 
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .container2 {
-    display: flex;
-    flex-direction: row;
-  }
-}
 
 .warn {
   float: left;
@@ -421,3 +409,14 @@ background-position-y: 0em;
   display: block;
 }
 
+@media only screen and (max-width: 900px) {
+main {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+
+}
