@@ -22,7 +22,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   padding: 0 1em;
-  font-size: 16px;
+  font-size: 24px;
   color: antiquewhite;
 }
 
@@ -412,15 +412,15 @@ background-position-y: 0em;
 @media only screen and  (min-width: 900px) {
  
   main {
-    font-size: 24px;
+    font-size: 16px;
   }
-  /*
+ 
   .container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-  */
+ 
   
 }
 
