@@ -409,7 +409,7 @@ background-position-y: 0em;
   display: block;
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 800px) and (min-width: 320px) {
  
   main {
     margin-top: 70px;
