@@ -22,7 +22,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   padding: 0 1em;
-  font-size: 24px;
+  font-size: 16px;
   color: antiquewhite;
 }
 
@@ -409,27 +409,18 @@ background-position-y: 0em;
   display: block;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 320px) {
+@media only screen and  (min-width: 900px) {
  
   main {
-    margin-top: 70px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border : 2px solid goldenrod;
-    box-shadow: 0 0 15px 2px goldenrod;
-    width: 90%;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 1em;
-    font-size: 16px;
-    color: antiquewhite;
+    font-size: 24px;
   }
-  
+  /*
   .container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+  */
   
 }
 
