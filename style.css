@@ -26,32 +26,6 @@ main {
   color: antiquewhite;
 }
 
-@media only screen and (max-width: 900px) {
- 
-  main {
-    margin-top: 70px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border : 2px solid goldenrod;
-    box-shadow: 0 0 15px 2px goldenrod;
-    width: 90%;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 1em;
-    font-size: 6px;
-    color: antiquewhite;
-  }
-  
-  .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-  
-}
-
-  
-
 h1 {
   background-color: rgba(0, 0, 0, 0.6);
   border : 2px solid goldenrod;
@@ -433,5 +407,29 @@ background-position-y: 0em;
 
 .dropdown:hover .content {
   display: block;
+}
+
+@media only screen and (max-width: 900px) {
+ 
+  main {
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border : 2px solid goldenrod;
+    box-shadow: 0 0 15px 2px goldenrod;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1em;
+    font-size: 6px;
+    color: antiquewhite;
+  }
+  
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+  
 }
 
