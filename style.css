@@ -447,7 +447,7 @@ background-position-y: 0em;
   
   .plasma {
   background-image: url("img/Plasma.png");
-  background-position: right top;
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 2.5em 2.5em; 
  }
