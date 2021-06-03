@@ -420,6 +420,18 @@ background-position-y: 0em;
   flex-direction: column;
   justify-content: space-around;
 }
+  
+  .end {
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
  
   
 }
