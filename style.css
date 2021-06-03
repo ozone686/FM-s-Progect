@@ -421,6 +421,10 @@ background-position-y: 0em;
   justify-content: space-around;
 }
   
+  .pc {
+    margin-bottom: 30px;
+  }
+  
   .end {
     font-size: 20px;
   }
