@@ -425,7 +425,7 @@ background-position-y: 0em;
     margin-bottom: 30px;
   }
   
-  .container2:last-child {
+  .container2 p:last-child {
   margin-bottom: 0;
 }
   
