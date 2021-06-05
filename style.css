@@ -411,10 +411,6 @@ background-position-y: 0em;
 
 @media only screen and  (max-width: 900px) {
  
-  main {
-    font-size: 16px;
-  }
- 
   .container {
   display: flex;
   flex-direction: column;
@@ -427,22 +423,6 @@ background-position-y: 0em;
   
   .box1 {
     margin-bottom: 30px;
-  }
-  
-  .end {
-    font-size: 20px;
-  }
-  
-  .navigation {
-    display: none;
-  }
-  
-  h1 {
-    font-size: 28px;
-  }
-  
-  h3 {
-    font-size: 20px;
   }
   
   .plasma {
