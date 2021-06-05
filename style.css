@@ -425,6 +425,10 @@ background-position-y: 0em;
     margin-bottom: 30px;
   }
   
+  .container2:last-child {
+  margin-bottom: 0;
+}
+  
   .plasma {
   background-image: url("img/Plasma.png");
   background-position: right bottom;
