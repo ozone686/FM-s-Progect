@@ -37,19 +37,38 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 70px;
+  margin-bottom: 50px;
   font-family: "GEORGIA", "Arial", sans-serif;
   font-size: 45px;
   font-weight: 700;
   color: goldenrod;
-  text-align: center;
   padding: 0.6em 0em 0.6em 0em;
+  
 }
+
 
 nav {
   font-size: 24px;
   color: goldenrod;
   text-align: center;
 }
+
+/* Навигация с переходом*/
+.mainNav a {
+  transition: all .5s ease-in;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.mainNav a:hover {
+  background-color: rgba(218, 165, 32, .8);
+  color: white;
+  box-shadow: 0 0 5px 5px rgb(253, 253, 253);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+
+}
+
 /* Интро и разметка статей*/
 
 .space {
@@ -81,7 +100,7 @@ h2 {
   box-shadow: 0 0 5px 2px;
   display: inline-block;
   border-radius: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 30px;
   padding: 5px;
   color: goldenrod;
@@ -99,7 +118,6 @@ h3 {
   display: inline-block;
   padding: 5px 10px;
   border-radius: 10px;
-  margin: 0;
   text-align: center;
   color: bisque;
 }
@@ -139,67 +157,22 @@ h3 {
   margin-top: 50px;
 }
 
-.inside {
-  background-color: rgba(0, 0, 0, 0.4);
-  border : 1px solid goldenrod;
-  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  border-radius: 10px;
-  text-align: center;
-  width: 40%;
-  padding: 75px 5px;
+img {
+  max-width: 100%;
 }
 
-
-.snap img {
-  border: 1px solid goldenrod;
-  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  border-radius: 10px;
-}
-
-.block {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-
-.warn {
+.float {
+  max-width: 40%;
   float: left;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.marjtop {
+  margin-top: 70px;
 }
 
 /*Конец раздела*/
-
-/* CPM */
-.rabbit {
-  background-image: url("img/Strafe.png");
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 40px;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 10.9em 10.9em;
-  background-position-x: 48em;
-  background-position-y: 0em;
-}
-
-.flex {
-display: flex;
-flex-direction: row;
-background-image: url("img/haste.png");
-background-position: left;  
-background-repeat: no-repeat;
-background-size: 10.9em 10.9em;
-background-position-x: 8em;
-background-position-y: 0em;
-}
-
-.haste1 {
-  border: 1px solid goldenrod;
-  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  border-radius: 10px;
-  margin-bottom: 50px;
-  margin-left: 545px;
-}
 
 /* Stuff */
 .haste {
@@ -226,72 +199,54 @@ background-position-y: 0em;
 
 /* Для раздела картинок оружия */
 
+.posImages {
+  position: relative;
+}
+
 .rocket {
-  background-image: url("img/rocket.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 8.5em 8.5em;
-  background-position-x: 50em;
-  background-position-y: 2em;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  width: 12%;
 }
 
 .grenade {
-  background-image: url("img/Grenade.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 8.5em 8.5em;
-  background-position-x: 50em;
-  background-position-y: 3em;
+  position: absolute;
+  bottom: 60px;
+  right: 30px;
+  width: 12%;
 }
 
 .plasma {
-  background-image: url("img/Plasma.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 9.5em 9.5em;
-  background-position-x: 50em;
-  background-position-y: 2.5em;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  width: 12%;
 }
 
 .bfg {
-  background-image: url("img/BFG.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 9.5em 9.5em;
-  background-position-x: 50em;
-  background-position-y: 2em;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  width: 12%;
 }
 
-/* Testing Flexbox раздел плазма*/
+/* Testing Flexbox раздел CPM*/
 
-.container {
+.cpm {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-.container2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 
-.pc {
-  border: 1px solid goldenrod;
-  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  border-radius: 10px;
+.rabbit {
+  width: 20%;
 }
 
-.box1 {
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 1px solid goldenrod;
-  box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  border-radius: 10px;
-  padding: 5px 0 5px 15px;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  
+.haste {
+  width: 20%;
 }
 
 
@@ -306,7 +261,7 @@ background-position-y: 0em;
   box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
   width: 95%;
-  padding: 5px 5px 5px 10px;
+  padding: 5px 5px 5px 15px;
 }
 
 /* Подчеркивание ссылок*/
@@ -389,15 +344,15 @@ background-position-y: 0em;
   text-align: center;
   display: none;
   position: absolute;
-  min-width: 180px;
   border: 1px solid goldenrod;
   box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
   border-radius: 10px;
-  padding: 5px 10px 5px 10px;
-  margin-left: 37.5px;
+  left: 38px;
+  right: 0;
   font-size: 24px;
   font-family: "GEORGIA", "Arial", sans-serif;
   bottom: 58px;
+  max-width: 200px;
   }
 
 .content a {
@@ -409,33 +364,20 @@ background-position-y: 0em;
   display: block;
 }
 
-@media only screen and  (max-width: 900px) {
- 
-  .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-  
-  .pc {
-    margin-bottom: 30px;
+@media (min-width: 481px) and (max-width: 768px) {
+  main {
+    font-size: 1em;
   }
-  
-  .box1 {
-    margin-bottom: 30px;
+
+  h1 {
+    font-size: 2em;
   }
-  
-  .container2 p:last-child {
-  margin-bottom: 0;
+
+  h3 {
+    font-size: 1em;
+  }
 }
-  
-  .plasma {
-  background-image: url("img/Plasma.png");
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  background-size: 2.5em 2.5em; 
- }
- 
-  
-}
+
+
+
 
