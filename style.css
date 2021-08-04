@@ -175,26 +175,24 @@ img {
 /*Конец раздела*/
 
 /* Stuff */
-.haste {
-  background-image: url("img/haste.png");
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 6em 6em;
-  background-position-x: 55em;
-  background-position-y: 0em;
+
+.stuffPos {
+  position: relative;
 }
 
-.quade {
-  background-image: url("img/quade.png");
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 6em 6em;
-  background-position-x: 55em;
-  background-position-y: 0em;
+.stuff {
+  position: absolute;
+  bottom: 10px;
+  top: 10px;
+  left: 250px;
+  max-width: 4%;
+}
+
+.stuff1 {
+  float: right;
+  max-width: 12%;
+  margin-right: 100px;
+  margin-bottom: 0;
 }
 
 /* Для раздела картинок оружия */
@@ -233,21 +231,6 @@ img {
 
 /* Testing Flexbox раздел CPM*/
 
-.cpm {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 50px;
-}
-
-
-.rabbit {
-  width: 20%;
-}
-
-.haste {
-  width: 20%;
-}
 
 
 /* Раздел про ob*/
