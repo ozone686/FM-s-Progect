@@ -164,13 +164,9 @@ img {
 .float {
   max-width: 40%;
   float: left;
-  margin-right: 30px;
-  margin-top: 50px;
+  margin: 10px 40px 20px 0;
 }
 
-.marjtop {
-  margin-top: 70px;
-}
 
 /*Конец раздела*/
 
@@ -192,7 +188,7 @@ img {
   float: right;
   max-width: 12%;
   margin-right: 100px;
-  margin-bottom: 0;
+  
 }
 
 /* Для раздела картинок оружия */
