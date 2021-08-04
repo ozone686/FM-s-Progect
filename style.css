@@ -56,15 +56,14 @@ nav {
 /* Навигация с переходом*/
 .mainNav a {
   transition: all .5s ease-in;
-  border-radius: 20px;
-  padding: 5px 10px;
+  
 }
 
 .mainNav a:hover {
-  background-color: rgba(218, 165, 32, .8);
+  text-shadow: 2px 2px 5px black, 0 0 1em white;
   color: white;
-  box-shadow: 0 0 5px 5px rgb(253, 253, 253);
   -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
   transform: scale(1.5);
 
 }
