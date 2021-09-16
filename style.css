@@ -105,22 +105,13 @@ header > h1 {
 .logo {
   width: 5em;
   height: 5em;
+}
+
+.margRight {
   margin-right: 10px;
 }
 
-.logo2 {
-  width: 5em;
-  height: 5em;
-}
-
-.logo3 {
-  width: 5em;
-  height: 5em;
-}
-
-.logo4 {
-  width: 5em;
-  height: 5em;
+.margLeft {
   margin-left: 10px;
 }
 
@@ -162,115 +153,6 @@ header > h1 {
 }
 
 
-@keyframes logo2 {
-  from {
-    transform: rotate(0) scale(.5);
-    opacity: 0;
-  }
-
-  50% {
-    transform: rotate(-180deg) scale(.5);
-    opacity: 1;
-  }
-
-  60% {
-    transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-
-  70% {
-    transform: rotate(0) scale(1.1);
-    opacity: 1;
-  }
-
-  80% {
-    Transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-
-  90% {
-    transform: rotate(0) scale(1.1);
-    opacity: 1;
-  }
-
-  to {
-    transform: rotate(0) scale(1);
-  }
-}
-
-
-@keyframes logo3 {
-  from {
-    transform: rotate(0) scale(.5);
-    opacity: 0;
-  }
-
-  50% {
-    transform: rotate(-180deg) scale(.5);
-    opacity: 1;
-  }
-
-  60% {
-    transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-
-  70% {
-    transform: rotate(0) scale(1.1);
-    opacity: 1;
-  }
-
-  80% {
-    Transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-
-  90% {
-    transform: rotate(0) scale(1.1);
-    opacity: 1;
-  }
-
-  to {
-    transform: rotate(0) scale(1);
-  }
-}
-
-@keyframes logo4 {
-  from {
-    transform: rotate(0) scale(.5);
-    opacity: 0;
-  }
-
-  50% {
-    transform: rotate(-180deg) scale(.5);
-    opacity: 1;
-  }
-
-  60% {
-    transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-
-  70% {
-    transform: rotate(0) scale(1.1);
-    opacity: 1;
-  }
-
-  80% {
-    Transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-
-  90% {
-    transform: rotate(0) scale(1.1);
-    opacity: 1;
-  }
-
-  to {
-    transform: rotate(0) scale(1);
-  }
-}
-
 .logo {
   -webkit-animation-name: logo;
   -webkit-animation-duration: 3s;
@@ -279,26 +161,6 @@ header > h1 {
   
 }
 
-.logo2 {
-  -webkit-animation-name: logo2;
-  -webkit-animation-duration: 3s;
-  animation-name: logo2;
-  animation-duration: 3s;
-}
-
-.logo3 {
-  -webkit-animation-name: logo3;
-  -webkit-animation-duration: 3s;
-  animation-name: logo3;
-  animation-duration: 3s;
-}
-
-.logo4 {
-  -webkit-animation-name: logo4;
-  -webkit-animation-duration: 3s;
-  animation-name: logo4;
-  animation-duration: 3s;
-}
 
 /* Навигация с переходом*/
 .mainNav a {
@@ -472,26 +334,6 @@ img {
   width: 12%;
 }
 
-.grenade {
-  position: absolute;
-  top: 60px;
-  right: 30px;
-  width: 12%;
-}
-
-.plasma {
-  position: absolute;
-  top: 60px;
-  right: 30px;
-  width: 12%;
-}
-
-.bfg {
-  position: absolute;
-  top: 60px;
-  right: 30px;
-  width: 12%;
-}
 
 /* Testing Flexbox раздел CPM*/
 
@@ -645,7 +487,7 @@ img {
   }
 
   h3 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 }
 
