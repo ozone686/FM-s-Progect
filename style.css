@@ -1,4 +1,4 @@
-/* intro */
+/* common styles */
 html {
   font-family: "GEORGIA", "Arial", sans-serif;
   background-image: url("img/mainback.png");
@@ -12,46 +12,36 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  width: 90%;
+  margin: 70px auto;
+}
+
 main {
-  margin-top: 70px;
-  margin-bottom: 30px;
   background-color: rgba(0, 0, 0, 0.5);
   border : 2px solid goldenrod;
   box-shadow: 0 0 15px 2px goldenrod;
-  width: 90%;
   border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 1em;
+  padding: 0 25px;
   font-size: 24px;
   color: antiquewhite;
 }
 
-h1 {
+header {
   background-color: rgba(0, 0, 0, 0.6);
   border : 2px solid goldenrod;
   box-shadow: 0 0 15px 2px goldenrod;
   text-shadow: -3px 3px 5px rgba(218, 165, 32, .7);
-  width: 90%;
   border-radius: 10px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 70px;
-  margin-bottom: 50px;
   font-family: 'Orbitron', "GEORGIA", "Arial", sans-serif;
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 700;
   color: goldenrod;
-  padding: 30px 0;
-  
+  margin-bottom: 70px;
+  padding: 0 15px;
 }
 
-.mainNav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 /*Fonts*/
 
@@ -64,59 +54,34 @@ h1 {
   url('fonts/orbitron-bold-webfont.svg') format('svg');
 }
 
-/* Animation*/
+
+/* Animation h1*/
+
 
 .animation {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  border : 2px solid goldenrod;
-  box-shadow: 0 0 15px 2px goldenrod;
-  text-shadow: -3px 3px 5px rgba(218, 165, 32, .7);
-  border-radius: 10px;
-  width: 90%;
-  margin-top: 70px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
 }
 
-.weaponAnimation {
+
+.weapon-animation {
   display: flex;
   flex-flow: row nowrap;
 }
 
 
-header > h1 {
-  font-size: 44px;
-  color: goldenrod;
-  font-weight: bold;
-  border: none;
-  box-shadow: none;
-  background-color: rgba(0, 0, 0, 0);
-  margin: 0 auto;
-  padding: 20px 10px;
-  width: 60%;
+.animation-icons {
+  width: 4em;
+  height: 4em;
 }
 
-.logo {
-  width: 5em;
-  height: 5em;
+.animation-icons + .animation-icons {
+  margin-left: 15px;
 }
 
-.margRight {
-  margin-right: 10px;
-}
-
-.margLeft {
-  margin-left: 10px;
-}
-
-
-@keyframes logo {
+@keyframes animation-icons {
   from {
     transform: rotate(0) scale(.5);
     opacity: 0;
@@ -153,16 +118,23 @@ header > h1 {
 }
 
 
-.logo {
-  -webkit-animation-name: logo;
+.animation-icons {
+  -webkit-animation-name: animation-icons;
   -webkit-animation-duration: 3s;
-  animation-name: logo;
+  animation-name: animation-icons;
   animation-duration: 3s;
   
 }
 
 
-/* Навигация с переходом*/
+/* Навигация на главной с переходом*/
+
+.mainNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .mainNav a {
   display: flex;
   align-items: center;
@@ -188,7 +160,7 @@ margin-top: 20px;
   font-size: 34px;
 }
 
-/* Интро и разметка статей*/
+/* Разметка статей и стили для ссылок*/
 
 .space {
   margin-left: 1.5em;
@@ -248,7 +220,13 @@ h3 {
 }
 
 
-/* разметка с картинкой */
+/* Иконка для маркированного списка*/
+
+ul.pictureList {
+  list-style-image: url(img/quake3_93735.svg);
+}
+
+/* Стили для картинок */
 
 .warning {
   background-color: rgba(0, 0, 0, 0.4);
@@ -268,11 +246,6 @@ h3 {
   background-position-y: 10px;
 }
 
-ul.pictureList {
-  list-style-image: url(img/quake3_93735.svg);
-}
-
-/* раздел стрейф */
 .gallery {
   border: 1px solid goldenrod;
   box-shadow: 0 0 5px 5px rgba(218, 165, 32, 0.3);
@@ -296,10 +269,22 @@ img {
   margin: 10px 40px 20px 0;
 }
 
+/* Для раздела про пушки картинок оружия */
 
-/*Конец раздела*/
+.posImages {
+  position: relative;
+}
 
-/* Stuff */
+.guns {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  width: 12%;
+}
+
+
+
+/* Раздел Stuff */
 
 .stuffFlex {
   display: flex;
@@ -320,23 +305,6 @@ img {
 .stuff {
   width: 5em;
 }
-
-/* Для раздела картинок оружия */
-
-.posImages {
-  position: relative;
-}
-
-.guns {
-  position: absolute;
-  top: 60px;
-  right: 30px;
-  width: 12%;
-}
-
-
-/* Testing Flexbox раздел CPM*/
-
 
 
 /* Раздел про ob*/
@@ -394,7 +362,7 @@ img {
   
 }
 
-.back {
+.next-back-button {
   font-family: 'Orbitron', "GEORGIA", "Arial", sans-serif;
   background-color: rgba(0, 0, 0, 0.4);
   border: 1px solid goldenrod;
@@ -404,22 +372,7 @@ img {
   transition: all ease-in .2s;
 }
 
-.back:hover {
-  transform: scale(1.1);
-  text-shadow: 2px 2px 5px black, 0 0 1em white;
-}
-
-.next {
-  font-family: 'Orbitron', "GEORGIA", "Arial", sans-serif;
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 1px solid goldenrod;
-  box-shadow: inset 0 0 5px 5px rgba(218, 165, 32, 0.3);
-  border-radius: 10px;
-  padding: 10px 40px 10px 40px;
-  transition: all ease-in .2s;
-}
-
-.next:hover {
+.next-back-button:hover {
   transform: scale(1.1);
   text-shadow: 2px 2px 5px black, 0 0 1em white;
 }
@@ -482,8 +435,8 @@ img {
     font-size: 1em;
   }
 
-  h1 {
-    font-size: 2em;
+  h2 {
+    font-size: 1em;
   }
 
   h3 {
