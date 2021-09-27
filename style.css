@@ -6,6 +6,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
+  font-size: 62.5%;
 }
 
 * {
@@ -23,7 +24,7 @@ main {
   box-shadow: 0 0 15px 2px goldenrod;
   border-radius: 10px;
   padding: 0 25px;
-  font-size: 24px;
+  font-size: 2.4em;
   color: antiquewhite;
 }
 
@@ -35,7 +36,7 @@ header {
   border-radius: 10px;
   text-align: center;
   font-family: 'Orbitron', "GEORGIA", "Arial", sans-serif;
-  font-size: 26px;
+  font-size: 2.6em;
   font-weight: 700;
   color: goldenrod;
   margin-bottom: 70px;
@@ -58,7 +59,7 @@ header {
 /* Animation h1*/
 
 
-.animation {
+body.index-page > header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -140,7 +141,7 @@ header {
   align-items: center;
   height: 55px;
   font-family: 'Orbitron', "GEORGIA", "Arial", sans-serif;
-  font-size: 26px;
+  font-size: 1.2em;
   color: goldenrod;
   transition-property: font-size, text-shadow, color;
   transition-duration: .4s, 1s, .4s;
@@ -157,7 +158,7 @@ margin-top: 20px;
 .mainNav a:hover {
   text-shadow: 2px 2px 5px black, 0 0 1em white;
   color: white;
-  font-size: 34px;
+  font-size: 1.6em;
 }
 
 /* Разметка статей и стили для ссылок*/
@@ -190,7 +191,7 @@ a:hover {
 /* pазметка заголовков */
 
 h2 {
-  font-size: 36px;
+  font-size: 1.6em;
   font-weight: 500;
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
@@ -211,7 +212,7 @@ h3 {
   background-color: rgba(0, 0, 0, 0.4);
   border : 1px solid goldenrod;
   box-shadow: 0 0 10px 3px rgba(218, 165, 32, 0.3);
-  font-size: 24px;
+  font-size: 1em;
   display: inline-block;
   padding: 5px 10px;
   border-radius: 10px;
@@ -345,7 +346,7 @@ img {
 }
 
 .links {
-  font-size: 26px;
+  font-size: 1.2em;
   line-height: 40px;
 }
 
@@ -358,7 +359,7 @@ img {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 32px;
+  font-size: 3.2em;
   
 }
 
@@ -430,17 +431,26 @@ img {
   display: block;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media  (max-width: 900px) {
   main {
+    font-size: 1.8em;
+  }
+
+  h1 {
     font-size: 1em;
   }
 
   h2 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   h3 {
-    font-size: 1.5em;
+    font-size: 1em;
+  }
+
+  .animation-icons {
+    width: 2em;
+    height: 2em;
   }
 }
 
