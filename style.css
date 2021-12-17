@@ -76,6 +76,11 @@ body.index-page > header {
   flex: 2;
 }
 
+header >.weapon-animation:last-child {
+display: flex;
+justify-content: flex-end;
+}
+
 
 .animation-icons {
   width: 4em;
